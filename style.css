@@ -1,0 +1,193 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Gabarito:wght@400..900&family=Luxurious+Script&family=Momo+Trust+Display&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.momo-trust-display-regular {
+  font-family: "Momo Trust Display", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+:root {
+    --cor-01: #797D62;
+    --cor-02: #9B9B7A;
+    --cor-03: #D9AE94;
+    --cor-04: #F1DCA7;
+    --cor-05: #997B66;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    }
+
+body {
+    font-family: "Momo Trust Display", sans-serif;
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    min-height: 90vh; 
+    background: linear-gradient(to bottom, rgba(48, 21, 21, 1) 0%, rgba(230, 202, 147, 1));
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+
+main {
+    background-color: #5f473665;
+    border-radius: 20px;
+    padding: 20px;
+    margin: auto;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+#addtask {
+    font-family: "Momo Trust Display", sans-serif;
+    display: flex;
+    padding: 10px;  
+    width: 230px;
+    align-items: center;
+    justify-content: center;
+    background-color: #c7c1bf;
+    border-radius: 15px;
+    border-width: 0px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.123);
+}
+
+#addbutton {
+    font-family: "Momo Trust Display", sans-serif;
+    padding: 7px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: #e2d3ae;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.123);
+}
+
+#searchtask {
+    font-family: "Momo Trust Display", sans-serif;
+    width: 290px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: #c7c1bf;
+    border-radius: 15px;
+    border-width: 0px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.123);
+    margin-bottom: 20px;
+}
+
+.lista-item-container {
+    display: flex;
+    gap: 8px;
+    list-style-type: none;
+    height: 40px;
+}
+
+
+
+.lista-item-container input[type='checkbox'] {
+    margin-top: 13px;
+}
+
+#checkbox- {
+    height: 50px;
+    width: 18px;
+    display: none;
+}
+
+.checkbox-customizado {
+    width: 20px;
+    height: 20px;
+    background-color: var(--neutro);
+    border: 1px solid var(--preto);
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.checked {
+    background-color: var(--preto);
+    position: relative;
+}
+
+.checkbox-customizado.checked::after {
+    content: "";
+    position: absolute;
+    left: 30%;
+    top: -10%;
+    width: 5px;
+    height: 14px;
+
+    border-top: 2px solid var(--neutro);
+    border-left: 2px solid var(--neutro);
+
+    transform: rotate(-140deg);
+}
+
+
+.date {
+    font-size: 12px;
+    line-height: 20px;
+    padding: 0px;
+    margin: 0px;
+    padding-left: 40px;
+    padding-bottom: 10px;
+    margin-top: 5px;
+    width: 250px;
+}
+
+ul {
+    padding: 0px;
+}
+
+li {
+    background-color: #3b252586;
+    height: 100px;
+    width: 360px;
+    text-align: center;
+    border-radius: 20px;
+    margin: 20px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #cfb487;
+    list-style: none;
+ }
+
+ p {
+    padding-top: 0px;
+ }
+
+.mensagem-lista-vazia {
+    color: #EFD09E;
+}
+
+
+#removebutton {
+    font-family: "Momo Trust Display", sans-serif;
+    border:  0px;
+   background: none;
+   background-color: rgb(179, 5, 5);
+   border-radius: 5px;
+   width: 70px;
+   height: 27px;
+   margin-top: 13px;
+   margin-left: 10px;
+
+}
+
+

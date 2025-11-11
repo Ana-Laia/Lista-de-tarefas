@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+main {
+    width: 85%;
+}
+
+#addtask {
+    width: 700px;
+}
+
+#searchtask {
+    width: 750px;
+}
+
+
+li {
+    height: 80px;
+    width: 460px;
+ }
+
+ }
+
+ @media screen and (min-width: 992px) {
+main {
+    width: 85%;
+}
+
+#addtask {
+    width: 800px;
+}
+
+#searchtask {
+    width: 870px;
+}
+
+
+li {
+    height: 100px;
+    width: 460px;
+ }
+ }
+
+@media screen and (min-width: 1300px) {
+ main {
+    width: 85%;
+}
+
+#addtask {
+    width: 1300px;
+}
+
+#searchtask {
+    width: 1350px;
+}
+
+
+li {
+    height: 80px;
+    width: 460px;
+ } }
